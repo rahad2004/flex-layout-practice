@@ -78,7 +78,61 @@ nav {
   font-size: 16px;
 }
 
-.banner-button-container{
-    display: flex;
-    gap: 15px;
+.banner-button-container {
+  display: flex;
+  gap: 15px;
 }
+
+/* common layout section related design */
+.back-white {
+  background-color: white;
+  margin-top: 50px;
+}
+
+.inner-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 400px;
+}
+/* common layout section related design end */
+
+/* common design */
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-header div{
+  width: 60px;
+  background-color: rgba(0, 0, 255, 0.801);
+  height: 3px;
+}
+
+.section-header h1{
+  font-size: 40px;
+}
+
+.section-header p{
+  font-size: 14px;
+  color: gray;
+}
+
+
+/* who are we ? */
+
+.who-we-pera{
+  text-align: center;
+  width: 70%;
+  margin: 20px auto;
+  color: gray;
+}
+
+.who-we-pera span{
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(80, 75, 75);
+}
+
+
