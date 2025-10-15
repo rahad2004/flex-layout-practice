@@ -89,10 +89,16 @@ nav {
   margin: 50px 0;
 }
 
+.back-sky-white {
+  background-color: rgb(238, 238, 238);
+  margin: 50px 0;
+}
+
 .inner-section {
   max-width: 1140px;
   margin: 0 auto;
-  height: 400px;
+  min-height: 400px;
+  padding: 50px 0;
 }
 /* common layout section related design end */
 
@@ -166,7 +172,74 @@ nav {
   color: gray;
 }
 
+/* kkkkkkkk */
 .who-we-content div h3 {
   color: rgb(80, 75, 75);
   font-size: 30px;
+}
+
+.video-content {
+  display: flex;
+  margin: 50px 0;
+  gap: 15px;
+}
+
+.our-video-text {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.our-video-text h2 {
+  font-size: 40px;
+}
+
+.our-video-text p {
+  line-height: 1.5;
+  color: gray;
+}
+
+.our-video {
+  flex-grow: 1;
+}
+
+.our-video iframe {
+  border-radius: 5px;
+}
+
+/* service */
+
+.sevices-cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.sevices-cards > div {
+  flex-basis: calc(33.33% - 30px);
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 10px 10px 19px 0px rgba(138, 128, 128, 0.75);
+  -webkit-box-shadow: 10px 10px 19px 0px rgba(138, 128, 128, 0.75);
+  -moz-box-shadow: 10px 10px 19px 0px rgba(138, 128, 128, 0.75);
+}
+
+.sevices-cards > div p i {
+  font-size: 40px;
+  color: rgba(0, 0, 255, 0.801);
+}
+.sevices-cards > div > div h3 {
+  font-size: 25px;
+}
+
+.sevices-cards > div > div p {
+  margin-top: 15px;
+  line-height: 1.5;
+  color: gray;
 }
