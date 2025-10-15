@@ -86,7 +86,7 @@ nav {
 /* common layout section related design */
 .back-white {
   background-color: white;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .inner-section {
@@ -104,35 +104,69 @@ nav {
   gap: 8px;
 }
 
-.section-header div{
+.section-header div {
   width: 60px;
   background-color: rgba(0, 0, 255, 0.801);
   height: 3px;
 }
 
-.section-header h1{
+.section-header h1 {
   font-size: 40px;
 }
 
-.section-header p{
+.section-header p {
   font-size: 14px;
   color: gray;
 }
 
-
 /* who are we ? */
 
-.who-we-pera{
+.who-we-pera {
   text-align: center;
   width: 70%;
-  margin: 20px auto;
+  margin: 40px auto;
   color: gray;
 }
 
-.who-we-pera span{
+.who-we-pera span {
   font-size: 18px;
   font-weight: bold;
   color: rgb(80, 75, 75);
 }
 
+.who-we-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 
+.who-we-content div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 7px 7px 6px 2px rgba(199, 185, 185, 0.75);
+  -webkit-box-shadow: 7px 7px 6px 2px rgba(199, 185, 185, 0.75);
+  -moz-box-shadow: 7px 7px 6px 2px rgba(199, 185, 185, 0.75);
+}
+
+.who-we-content div p i {
+  font-size: 40px;
+  color: rgba(0, 0, 255, 0.801);
+}
+
+.who-we-content div p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  color: gray;
+}
+
+.who-we-content div h3 {
+  color: rgb(80, 75, 75);
+  font-size: 30px;
+}
